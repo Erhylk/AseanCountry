@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">Asean Country</string>
+    <string name="nama_negara">nama negara</string>
+    <string name="lagu_kebangsaan">lagu kebangsaan</string>
     <string-array name="nama_negara">
         <item>Indonesia</item>
         <item>Filipina</item>
@@ -12,6 +14,19 @@
         <item>Myanmar</item>
         <item>Kamboja</item>
         <item>Timor Leste</item>
+    </string-array>
+    <string-array name="bendera">
+        <item>https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_Indonesia.svg/1024px-Flag_of_Indonesia.svg.png</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Flag_of_the_Philippines.svg/1280px-Flag_of_the_Philippines.svg.png</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Flag_of_Malaysia.svg/1280px-Flag_of_Malaysia.svg.png</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Singapore.svg/1024px-Flag_of_Singapore.svg.png</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_Thailand.svg/1024px-Flag_of_Thailand.svg.png</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Flag_of_Brunei.svg/1280px-Flag_of_Brunei.svg.png</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Vietnam.svg/1024px-Flag_of_Vietnam.svg.png</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Flag_of_Laos.svg/1024px-Flag_of_Laos.svg.png</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Flag_of_Myanmar.svg/1024px-Flag_of_Myanmar.svg.png</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Flag_of_Cambodia.svg/1024px-Flag_of_Cambodia.svg.png</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Flag_of_East_Timor.svg/1280px-Flag_of_East_Timor.svg.png</item>
     </string-array>
     <string-array name="lagu_kebangsaan">
         <item>Indonesia Raya</item>
@@ -39,40 +54,90 @@
         <item>Khmer</item>
         <item>Tetun</item>
     </string-array>
+    <string-array name="ibu_kota">
+        <item>Jakarta</item>
+        <item>Manila</item>
+        <item>Kuala Lumpur</item>
+        <item>Singapura</item>
+        <item>Bangkok</item>
+        <item>Bandar Seri Begawan</item>
+        <item>Hanoi</item>
+        <item>Vientiane</item>
+        <item>Naypyidawe</item>
+        <item>Phnon Peenh</item>
+        <item>Dili</item>
+    </string-array>
+    <string-array name="mata_uang">
+        <item>Rupiah</item>
+        <item>Peso</item>
+        <item>Ringgit</item>
+        <item>Dollar Singapura</item>
+        <item>Bath</item>
+        <item>Dollar Brunei</item>
+        <item>Vietnamese Dong</item>
+        <item>Kip Laos</item>
+        <item>Kyat Burma</item>
+        <item>Kambodian Riel</item>
+        <item>US Dollar</item>
+    </string-array>
+    <string-array name="kode_iso">
+        <item>IDN</item>
+        <item>PHL</item>
+        <item>MYS</item>
+        <item>SGP</item>
+        <item>THA</item>
+        <item>BRN</item>
+        <item>VNN</item>
+        <item>LAO</item>
+        <item>MMR</item>
+        <item>KHM</item>
+        <item>TLS</item>
+    </string-array>
     <string-array name="deskripsi">
         <item>
-            Republik Indonesia (RI) atau Negara Kesatuan Republik Indonesia (NKRI), atau lebih umum disebut Indonesia, adalah negara di Asia Tenggara yang dilintasi garis khatulistiwa dan berada di antara daratan benua Asia dan Australia, serta antara Samudra Pasifik dan Samudra Hindia. Indonesia adalah negara kepulauan terbesar di dunia yang terdiri dari 17.504 pulau.[11] Nama alternatif yang biasa dipakai adalah Nusantara.[12] Dengan populasi Hampir 270.054.853 jiwa pada tahun 2018,[13] Indonesia adalah negara berpenduduk terbesar keempat di dunia dan negara yang berpenduduk Muslim terbesar di dunia, dengan lebih dari 230 juta jiwa.
+            Republik Indonesia (RI) atau Negara Kesatuan Republik Indonesia (NKRI), atau lebih umum disebut Indonesia, adalah negara di Asia Tenggara yang dilintasi garis khatulistiwa dan berada di antara daratan benua Asia dan Australia, serta antara Samudra Pasifik dan Samudra Hindia. Indonesia adalah negara kepulauan terbesar di dunia yang terdiri dari 17.504 pulau. Nama alternatif yang biasa dipakai adalah Nusantara. Dengan populasi Hampir 270.054.853 jiwa pada tahun 2018, Indonesia adalah negara berpenduduk terbesar keempat di dunia dan negara yang berpenduduk Muslim terbesar di dunia, dengan lebih dari 230 juta jiwa. \n\n
+            Bentuk negara Indonesia adalah negara kesatuan dan bentuk pemerintahan Indonesia adalah republik, dengan Dewan Perwakilan Rakyat, Dewan Perwakilan Daerah dan Presiden yang dipilih secara langsung.
         </item>
         <item>
-            Filipina atau Republik Filipina (bahasa Tagalog: Republika ng Pilipinas) adalah sebuah negara republik di Asia Tenggara, sebelah utara Indonesia, dan Malaysia. Filipina merupakan sebuah negara kepulauan yang terletak di Lingkar Pasifik Barat, negara ini terdiri dari 7.641 pulau. Selama ribuan tahun, warga kepulauan Filipina, dan pekerja keras ini telah mengembangkan sistem cocok tanam Padi yang sangat maju, yang menyediakan makanan pokok bagi masyarakatnya.
+            Filipina atau Republik Filipina (bahasa Tagalog: Republika ng Pilipinas) adalah sebuah negara republik di Asia Tenggara, sebelah utara Indonesia, dan Malaysia. Filipina merupakan sebuah negara kepulauan yang terletak di Lingkar Pasifik Barat, negara ini terdiri dari 7.641 pulau. Selama ribuan tahun, warga kepulauan Filipina, dan pekerja keras ini telah mengembangkan sistem cocok tanam Padi yang sangat maju, yang menyediakan makanan pokok bagi masyarakatnya. \n\n
+            Filipina adalah negara paling maju di Benua Asia setelah Perang Dunia II, namun sejak saat itu telah tertinggal di belakang negara-negara lain akibat pertumbuhan ekonomi yang lemah, penyitaan kekayaan yang dilakukan pemerintah, korupsi yang luas, dan pengaruh-pengaruh neo-kolonial. Meskipun begitu, saat ini Filipina mengalami pertumbuhan ekonomi yang moderat, yang banyak disumbangkan dari pengiriman uang oleh pekerja-pekerja Filipina di luar negeri, dan sektor teknologi informasi yang sedang tumbuh pesat. Filipina seringkali dianggap sebagai satu-satunya negara di Benua Asia di mana pengaruh budaya Barat terasa sangat kuat.
         </item>
         <item>
-            Malaysia adalah sebuah negara federal[12] yang terdiri dari tiga belas negeri (negara bagian) dan tiga wilayah federal di Asia Tenggara dengan luas 329.847 km persegi.[13][14] Ibu kotanya adalah Kuala Lumpur, sedangkan Putrajaya menjadi pusat pemerintahan federal. Jumlah penduduk negara ini mencapai 30.697.000 jiwa pada tahun 2015. Negara ini dipisahkan ke dalam dua kawasan — Malaysia Barat dan Malaysia Timur — oleh Kepulauan Natuna, wilayah Indonesia di Laut Tiongkok Selatan.[14] Malaysia berbatasan dengan Thailand, Indonesia, Singapura, Brunei, dan Filipina.[14] Negara ini terletak di dekat khatulistiwa dan beriklim tropika.[14] Kepala negara Malaysia adalah seorang Raja atau seorang Sultan yang dipilih secara bergiliran setiap 5 tahun sekali, hanya negeri-negeri (negara bagian) yang diperintah oleh Raja/Sultan saja yang diperbolehkan mengirimkan wakilnya untuk menjadi Raja Malaysia. Raja Malaysia biasanya memakai gelar Sri Paduka Baginda Yang di-Pertuan Agong[15]. dan pemerintahannya dikepalai oleh seorang Perdana Menteri.[16][17] Model pemerintahan Malaysia mirip dengan sistem parlementer Westminster.
+            Malaysia adalah sebuah negara federal yang terdiri dari tiga belas negeri (negara bagian) dan tiga wilayah federal di Asia Tenggara dengan luas 329.847 km persegi. Ibu kotanya adalah Kuala Lumpur, sedangkan Putrajaya menjadi pusat pemerintahan federal. Jumlah penduduk negara ini mencapai 30.697.000 jiwa pada tahun 2015. Negara ini dipisahkan ke dalam dua kawasan — Malaysia Barat dan Malaysia Timur — oleh Kepulauan Natuna, wilayah Indonesia di Laut Tiongkok Selatan. Malaysia berbatasan dengan Thailand, Indonesia, Singapura, Brunei, dan Filipina. Negara ini terletak di dekat khatulistiwa dan beriklim tropika. Kepala negara Malaysia adalah seorang Raja atau seorang Sultan yang dipilih secara bergiliran setiap 5 tahun sekali, hanya negeri-negeri (negara bagian) yang diperintah oleh Raja/Sultan saja yang diperbolehkan mengirimkan wakilnya untuk menjadi Raja Malaysia. Raja Malaysia biasanya memakai gelar Sri Paduka Baginda Yang di-Pertuan Agong. dan pemerintahannya dikepalai oleh seorang Perdana Menteri. Model pemerintahan Malaysia mirip dengan sistem parlementer Westminster.\n\n
         </item>
         <item>
-            Singapura (nama resmi: Republik Singapura) adalah sebuah negara pulau di lepas ujung selatan Semenanjung Malaya, 137 kilometer (85 mi) di utara khatulistiwa di Asia Tenggara. Negara ini terpisah dari Malaysia oleh Selat Johor di utara, dan dari Kepulauan Riau, Indonesia oleh Selat Singapura di selatan. Singapura adalah pusat keuangan terdepan ketiga di dunia[8] dan sebuah kota dunia kosmopolitan yang memainkan peran penting dalam perdagangan dan keuangan internasional. Pelabuhan Singapura adalah satu dari lima pelabuhan tersibuk di dunia.
+            Singapura (nama resmi: Republik Singapura) adalah sebuah negara pulau di lepas ujung selatan Semenanjung Malaya, 137 kilometer (85 mi) di utara khatulistiwa di Asia Tenggara. Negara ini terpisah dari Malaysia oleh Selat Johor di utara, dan dari Kepulauan Riau, Indonesia oleh Selat Singapura di selatan. Singapura adalah pusat keuangan terdepan ketiga di dunia dan sebuah kota dunia kosmopolitan yang memainkan peran penting dalam perdagangan dan keuangan internasional. Pelabuhan Singapura adalah satu dari lima pelabuhan tersibuk di dunia.\n\n
+            Singapura memiliki sejarah imigrasi yang panjang. Penduduknya yang beragam berjumlah kira-kira 6 juta jiwa, terdiri dari Cina, Melayu, India, Arab, berbagai keturunan Asia, dan Kaukasoid. 42% penduduk Singapura adalah orang asing yang bekerja dan menuntut ilmu di sana. Pekerja asing membentuk 50% dari sektor jasa. Negara ini adalah yang terpadat kedua di dunia setelah Monako. A.T. Kearney menyebut Singapura sebagai negara paling terglobalisasi di dunia dalam Indeks Globalisasi tahun 2006.\n\n
+
         </item>
         <item>
-            Asal mula Kerajaan Thai secara tradisional dikaitkan dengan sebuah kerajaan yang berumur pendek, Kerajaan Sukhothai yang didirikan pada tahun 1238. Kerajaan ini kemudian diteruskan Kerajaan Ayutthaya yang didirikan pada pertengahan abad ke-14 dan berukuran lebih besar dibandingkan Sukhothai. Kebudayaan Kerajaan Thai dipengaruhi dengan kuat oleh Tiongkok dan India. Hubungan dengan beberapa negara besar Eropa dimulai pada abad ke-16 namun meskipun mengalami tekanan yang kuat, Kerajaan Thai tetap bertahan sebagai satu-satunya negara di Asia Tenggara yang tidak pernah dijajah oleh negara Eropa[14], (namun pernah diduduki oleh tentara Jepang sebagai Teritori Imperial. Oleh karena mendapat pengaruh dan tekanan bangsa Barat yang mengakibatkan berbagai perubahan pada abad ke-19 maka diberikan banyak kelonggaran bagi pedagang-pedagang Britania di Thailand.
+            Asal mula Kerajaan Thai secara tradisional dikaitkan dengan sebuah kerajaan yang berumur pendek, Kerajaan Sukhothai yang didirikan pada tahun 1238. Kerajaan ini kemudian diteruskan Kerajaan Ayutthaya yang didirikan pada pertengahan abad ke-14 dan berukuran lebih besar dibandingkan Sukhothai. Kebudayaan Kerajaan Thai dipengaruhi dengan kuat oleh Tiongkok dan India. Hubungan dengan beberapa negara besar Eropa dimulai pada abad ke-16 namun meskipun mengalami tekanan yang kuat, Kerajaan Thai tetap bertahan sebagai satu-satunya negara di Asia Tenggara yang tidak pernah dijajah oleh negara Eropa, (namun pernah diduduki oleh tentara Jepang sebagai Teritori Imperial. Oleh karena mendapat pengaruh dan tekanan bangsa Barat yang mengakibatkan berbagai perubahan pada abad ke-19 maka diberikan banyak kelonggaran bagi pedagang-pedagang Britania di Thailand.\n\n
+
         </item>
         <item>
-            Silsilah kerajaan Brunei didapatkan pada Batu Tarsilah yang menuliskan Silsilah Raja-Raja Brunei yang dimulai dari Awang Alak Betatar, raja yang mula-mula memeluk agama Islam (1368) sampai kepada Sultan Muhammad Tajuddin (Sultan Brunei ke-19, memerintah antara 1795-1804 dan 1804-1807). Brunei adalah sebuah negara tertua di antara kerajaan-kerajaan di tanah Melayu. Keberadaan Brunei Tua ini diperoleh berdasarkan kepada catatan Arab, Cina dan tradisi lisan. Dalam catatan Sejarah Cina dikenal dengan nama Po-li, Po-lo, Poni atau Puni dan Bunlai. Dalam catatan Arab dikenali dengan Dzabaj atau Randj.
+            Silsilah kerajaan Brunei didapatkan pada Batu Tarsilah yang menuliskan Silsilah Raja-Raja Brunei yang dimulai dari Awang Alak Betatar, raja yang mula-mula memeluk agama Islam (1368) sampai kepada Sultan Muhammad Tajuddin (Sultan Brunei ke-19, memerintah antara 1795-1804 dan 1804-1807). Brunei adalah sebuah negara tertua di antara kerajaan-kerajaan di tanah Melayu. Keberadaan Brunei Tua ini diperoleh berdasarkan kepada catatan Arab, Cina dan tradisi lisan. Dalam catatan Sejarah Cina dikenal dengan nama Po-li, Po-lo, Poni atau Puni dan Bunlai. Dalam catatan Arab dikenali dengan Dzabaj atau Randj.\n\n
+            Saat ini, Brunei Darussalam memiliki Indeks Pembangunan Manusia tertinggi kedua di Asia Tenggara setelah Singapura, sehingga diklasifikasikan sebagai negara maju. Menurut Dana Moneter Internasional, Brunei memiliki produk domestik bruto per kapita terbesar kelima di dunia dalam keseimbangan kemampuan berbelanja. Sementara itu, Forbes menempatkan Brunei sebagai negara terkaya kelima dari 182 negara karena memiliki ladang minyak bumi dan gas alam yang luas.
         </item>
         <item>
-    Vietnam (basa Vietnam: Việt Nam), bernama resmi Republik Sosialis Vietnam (Cộng Hòa Xã Hội Chủ Nghĩa Việt Nam) kuwe negara paling timur nang Semenanjung Indochina nang Asia Tenggara. Vietnam berbatasan dengan Republik Rakyat Cina nang sebelah utara, Laos nang sebelah barat laut, Kamboja nang sebelah barat daya dan nang sebelah timur terbentang Laut China Selatan. Dengan populasi sekitar 84 juta jiwa, Vietnam kuwe negara terpadat nomor 13 nang dunia. Vietnam termasuk nang dalam grup ekonomi "Next Eleven"; menurut pemerentah, GDP Vietnam tumbuh sebesar 8.17% pada tahun 2006, negara dengan pertumbuhan tercepat kedua nang Asia Timur dan pertama nang Asia Tenggara. Pada akhir tahun 2007, menteri keuangan menyatakan pertumbuhan GDP Vietnam diperkirakan mencapai rekor tertinggi dalam sepuluh tahun terakhir sebesar 8.44%.
+    Vietnam (basa Vietnam: Việt Nam), bernama resmi Republik Sosialis Vietnam (Cộng Hòa Xã Hội Chủ Nghĩa Việt Nam) kuwe negara paling timur nang Semenanjung Indochina nang Asia Tenggara. Vietnam berbatasan dengan Republik Rakyat Cina nang sebelah utara, Laos nang sebelah barat laut, Kamboja nang sebelah barat daya dan nang sebelah timur terbentang Laut China Selatan. Dengan populasi sekitar 84 juta jiwa, Vietnam kuwe negara terpadat nomor 13 nang dunia. Vietnam termasuk nang dalam grup ekonomi "Next Eleven"; menurut pemerentah, GDP Vietnam tumbuh sebesar 8.17% pada tahun 2006, negara dengan pertumbuhan tercepat kedua nang Asia Timur dan pertama nang Asia Tenggara. Pada akhir tahun 2007, menteri keuangan menyatakan pertumbuhan GDP Vietnam diperkirakan mencapai rekor tertinggi dalam sepuluh tahun terakhir sebesar 8.44%.\n\n
+            Sejarah Vietnam dapat ditarik kembali ke 2500 tahun yang lalu, namun menurut legenda, bisa ditarik kembali ke 4000 tahun yang lalu. Vietnam, sejak abad 11 SM sampai abad 10 Masehi mayoritas berada di bawah kekuasaan kekaisaran Tiongkok.
         </item>
         <item>
-            Republik Demokratik Rakyat Laos adalah negara yang terkurung daratan di Asia Tenggara, berbatasan dengan Myanmar dan Republik Rakyat Tiongkok di sebelah barat laut, Vietnam di timur, Kamboja di selatan, dan Thailand di sebelah barat. Dari abad ke-14 hingga abad ke-18, negara ini disebut Lan Xang atau "Negeri Seribu Gajah".
+            Republik Demokratik Rakyat Laos adalah negara yang terkurung daratan di Asia Tenggara, berbatasan dengan Myanmar dan Republik Rakyat Tiongkok di sebelah barat laut, Vietnam di timur, Kamboja di selatan, dan Thailand di sebelah barat. Dari abad ke-14 hingga abad ke-18, negara ini disebut Lan Xang atau "Negeri Seribu Gajah".\n\n
+            Laos adalah sebuah Negara Republik yang dikelilingi oleh daratan dan terletak di bagian utara Semenanjung Indochina. Laos berasal dari kata Lan Xang yang artinya kerajaan gajah. Negara ini adalah satu-satunya Negara di kawasan Asia Tenggara yang tidak memiliki pantai. Laos pernah dijajah oleh Prancis dan memperoleh kemerdekaan pada 22 Oktober 1953 dalam bentuk kerajaan. Sejak 2 Desember 1975 kerajan Laos berubah menjadi Republik Laos. Laos adalah salah satu negara komunis dengan kepala pemerintahan berupa presiden yang bernama Choummaly Sayasone dan dibantu oleh perdana menteri yang bernama Bouasone Bouphavanh.
         </item>
         <item>
-            Republik Persatuan Myanmar (juga dikenal sebagai Birma, disebut "Burma" di dunia Barat) adalah sebuah negara berdaulat di Asia Tenggara. Myanmar berbatasan dengan India dan Bangladesh di sebelah barat, Thailand dan Laos di sebelah timur dan China di sebelah utara dan timur laut. Negara seluas 676.578 km² ini telah diperintah oleh pemerintahan militer sejak kudeta tahun 1988. Negara ini adalah negara berkembang dan memiliki populasi lebih dari 51 juta jiwa (sensus 2014).[7] Ibu kota negara ini sebelumnya terletak di Yangon sebelum dipindahkan oleh pemerintahan junta militer ke Naypyidaw pada tanggal 7 November 2005.[1] Myanmar telah bergabung sebagai anggota Perhimpunan Bangsa-Bangsa Asia Tenggara (ASEAN) sejak tahun 1997.
+            Republik Persatuan Myanmar (juga dikenal sebagai Birma, disebut "Burma" di dunia Barat) adalah sebuah negara berdaulat di Asia Tenggara. Myanmar berbatasan dengan India dan Bangladesh di sebelah barat, Thailand dan Laos di sebelah timur dan China di sebelah utara dan timur laut. Negara seluas 676.578 km² ini telah diperintah oleh pemerintahan militer sejak kudeta tahun 1988. Negara ini adalah negara berkembang dan memiliki populasi lebih dari 51 juta jiwa (sensus 2014).[7] Ibu kota negara ini sebelumnya terletak di Yangon sebelum dipindahkan oleh pemerintahan junta militer ke Naypyidaw pada tanggal 7 November 2005.[1] Myanmar telah bergabung sebagai anggota Perhimpunan Bangsa-Bangsa Asia Tenggara (ASEAN) sejak tahun 1997.\n\n
+            Peradaban awal di Myanmar termasuk penduduk berbahasa Tibeto-Burma di Burma Utara dan Kerajaan Mon di Burma Selatan. Pada abad ke-9, orang Bamar memasuki lembah atas Sungai Irrawaddy, diikuti dengan didirikannya Kerajaan Pagan tahun 1050-an. Sejak saat itu, bahasa Burma, termasuk budaya dan Buddha Theravada perlahan-lahan menjadi dominan di negara ini. Kerajaan Pagan jatuh akibat invasi Mongol.
         </item>
         <item>
-            Kerajaan Kamboja adalah sebuah negara berbentuk monarki konstitusional di Asia Tenggara. Negara ini merupakan penerus Kekaisaran Khmer yang pernah menguasai seluruh Semenanjung Indochina antara abad ke-11 dan 14.
-            Kamboja berbatasan dengan Thailand di sebelah barat, Laos di utara, Vietnam di timur, dan Teluk Thailand di selatan. Sungai Mekong dan Danau Tonle Sap melintasi negara ini.
+            Kerajaan Kamboja adalah sebuah negara berbentuk monarki konstitusional di Asia Tenggara. Negara ini merupakan penerus Kekaisaran Khmer yang pernah menguasai seluruh Semenanjung Indochina antara abad ke-11 dan 14.\n\n
+            Kamboja berbatasan dengan Thailand di sebelah barat, Laos di utara, Vietnam di timur, dan Teluk Thailand di selatan. Sungai Mekong dan Danau Tonle Sap melintasi negara ini.\n\n
+            Menjelang kemerdekaannya, Negara Kesatuan Republik Indonesia banyak membantu negara Kamboja ini. Buku - buku taktik perang karangan perwira militer Indonesia banyak digunakan oleh militer Kamboja. Oleh karenanya, para calon perwira di militer Kamboja, wajib belajar dan dapat berbahasa Indonesia.
         </item>
         <item>
-            Republik Demokratik Timor Leste (juga disebut Timor Lorosa'e), yang sebelum merdeka bernama Timor Timur, adalah sebuah negara kecil di sebelah utara Australia dan bagian timur pulau Timor. Selain itu wilayah negara ini juga meliputi pulau Kambing atau Atauro, Jaco, dan enklave Oe-Cusse Ambeno di Timor Barat.
+            Republik Demokratik Timor Leste (juga disebut Timor Lorosa\'e), yang sebelum merdeka bernama Timor Timur, adalah sebuah negara kecil di sebelah utara Australia dan bagian timur pulau Timor. Selain itu wilayah negara ini juga meliputi pulau Kambing atau Atauro, Jaco, dan enklave Oe-Cusse Ambeno di Timor Barat.\n\n
+            Timor Timur dijajah oleh Portugal pada abad ke-16, dan dikenal sebagai Timor Portugis sampai 28 November 1975, ketika Front Revolusi untuk Timor Leste Merdeka (FRETILIN) mengumumkan kemerdekaan wilayah tersebut. Sembilan hari kemudian, Indonesia melakukan invasi dan aneksasi terhadap Timor Timur dan Timor Timur dinyatakan sebagai provinsi ke-27 oleh Indonesia pada tahun berikutnya. Pendudukan Indonesia di Timor Timur ditandai oleh konflik yang sangat keras selama beberapa dasawarsa antara kelompok separatis (khususnya FRETILIN) dan militer Indonesia.
         </item>
     </string-array>
 </resources>
